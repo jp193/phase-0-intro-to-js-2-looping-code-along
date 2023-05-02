@@ -1,6 +1,7 @@
 // Code your solutions in this file
-let makeCard = []
+
 function writeCards(names, day) {
+  let makeCard = []
   for (let i = 0; i < names.length; i++) {
    makeCard.push(`Thank you, ${names[i]}, for the wonderful ${day} gift!`)
   }
